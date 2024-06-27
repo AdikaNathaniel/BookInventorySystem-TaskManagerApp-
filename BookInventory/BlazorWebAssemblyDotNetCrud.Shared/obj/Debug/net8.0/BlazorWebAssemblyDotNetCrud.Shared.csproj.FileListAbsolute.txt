@@ -1,0 +1,14 @@
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\bin\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.deps.json
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\bin\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.runtimeconfig.json
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\bin\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.dll
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\bin\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.pdb
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.csproj.AssemblyReference.cache
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.AssemblyInfoInputs.cache
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.AssemblyInfo.cs
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.dll
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\refint\BlazorWebAssemblyDotNetCrud.Shared.dll
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.pdb
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\BlazorWebAssemblyDotNetCrud.Shared.genruntimeconfig.cache
+C:\Users\ACER\Desktop\BookInventory(TaskManager) - Copy\BookInventory\BlazorWebAssemblyDotNetCrud.Shared\obj\Debug\net8.0\ref\BlazorWebAssemblyDotNetCrud.Shared.dll

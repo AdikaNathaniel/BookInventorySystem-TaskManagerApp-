@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BookInventory",
+    "\\BookInventory\\BookInventory",
+    "\\BookInventory\\BookInventory.Client"
+  ],
+  "SelectedNode": "\\BookInventory\\BookInventory.Client\\wwwroot\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

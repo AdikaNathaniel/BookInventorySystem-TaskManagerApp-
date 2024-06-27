@@ -1,0 +1,73 @@
+﻿@page "/edit-game"
+@page "/edit-game/{Id:int}"
+@inject HttpClient Http
+@rendermode @(new InteractiveWebAssemblyRenderMode(prerender:false))
+@using BlazorWebAssemblyDotNetCrud.Shared.Entities
+
+@if (Id == null)
+{
+    <h3>Add Game</h3>
+}
+else
+{
+    <h3>Edit @Game.Title</h3>
+}
+
+<EditForm Model="Game" OnValidSubmit="HandleSubmit">
+    <div>
+        <label for="title">Title</label>
+        <InputText id="title" @bind-Value="Game.Title" class="form-control"></InputText>
+    </div>
+
+    <div>
+        <label for="publisher">Publisher</label>
+        <InputText id="publisher" @bind-Value="Game.Publisher" class="form-control"></InputText>
+    </div>
+
+    <div>
+        <label for="releaseYear">Release Year</label>
+        <InputNumber id="releaseYear" @bind-Value="Game.ReleaseYear" class="form-control"></InputNumber>
+    </div>
+
+    <button type="button" class="btn btn-primary" @onclick="HandleSubmit">Save</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+    public VideoGame Game { get; set; } = new VideoGame();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Id is not null)
+        {
+            var result = await Http.GetFromJsonAsync<VideoGame>($"api/videogames/{(int)Id}");
+            if (result is not null)
+            {
+                Game = result;
+            }
+        }
+    }
+
+    private async Task HandleSubmit()
+    {
+        HttpResponseMessage result;
+        if (Id is not null)
+        {
+            result = await Http.PutAsJsonAsync($"api/videogames/{Id}", Game);
+        }
+        else
+        {
+            result = await Http.PostAsJsonAsync("api/videogames", Game);
+        }
+
+        if (result.IsSuccessStatusCode)
+        {
+            Game = await result.Content.ReadFromJsonAsync<VideoGame>();
+        }
+        else
+        {
+            // Handle error response here
+        }
+    }
+}
